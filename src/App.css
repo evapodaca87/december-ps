@@ -17,7 +17,10 @@ html{
   justify-content: center;
 }
 .nav {
+  display: flex;
+  flex-direction: column;
   width: 10vw;
+  height: 10%;
   display: flex;
 }
 .content {
