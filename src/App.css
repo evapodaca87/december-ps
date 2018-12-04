@@ -43,3 +43,7 @@ html{
 .portfolio {
   padding-top: 10vh;
 }
+.onPic {
+  background-color: white;
+  opacity: 0.5;
+}

@@ -11,103 +11,87 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/boom.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/email.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/firstDrum.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/ugly.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/pixel.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/clock.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
-    <Parallax
+        <div className='p2' />
+        <Parallax
             className='parallax1'
             blur={0}
             bgImage={require('./images/calc.jpg')}
             bgImageAlt='the cat'
             strength={60}
         >
-        <h1>Evan Apodaca</h1>
-            Put some text content here - even an empty div with fixed dimensions to have a height for the parallax.
+            <p className='onPic'>Hello this is filler text yo</p>
             <div style={{ width: '90vw', height: '90vh' }} />
-            
         </Parallax>
-    <div className='p2'></div>
+        <div className='p2' />
         {/* -----dynamic blur-----*/}
         {/* <Parallax
             blur={{ min: -15, max: 15 }}
