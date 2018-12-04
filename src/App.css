@@ -20,9 +20,10 @@ html{
   flex-direction: column;
   height: 10%;
   display: flex;
+  position: fixed;
 }
 .content {
-  width: 90vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,6 +43,14 @@ html{
 }
 .portfolio {
   padding-top: 10vh;
+  width: 100%;
+}
+.contact {
+  height: 100vh;
+  color: white;
+}
+.music {
+  height: 100vh;
 }
 .onPic {
   background-color: white;
