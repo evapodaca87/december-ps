@@ -24,7 +24,6 @@ html {
     display: flex;
     margin: 0;
     padding: 0;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -44,6 +43,12 @@ html {
 }
 .music {
     height: 100vh;
+}
+.about {
+  height: 200px;
+  background-color: blue;
+  width: 78vw;
+  padding: 0;
 }
 .onPic {
     background-color: white;
