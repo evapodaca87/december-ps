@@ -29,10 +29,10 @@ class App extends Component {
     togglePort() {
         this.setState({
             showAbout: true,
-            showPort: !this.state.showPort,
+            showPort: false,
             showMusic: true,
             showContact: true,
-            showBlank: !this.state.showBlank
+            showBlank: true
         });
     }
 
@@ -62,10 +62,8 @@ class App extends Component {
                 <div className='nav'>
                     <Menu inverted pointing vertical>
                         <Menu.Item className='name' name='Evan Apodaca' />
-                        <Menu.Item
-                            name='Home'
-                            // active={activeItem === 'home'}
-                        />
+                        <Menu.Item name='Home' />
+                        {/* // active={activeItem === 'home'} */}
                         <Menu.Item
                             name='About'
                             // active={activeItem === 'messages'}

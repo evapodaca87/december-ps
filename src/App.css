@@ -8,7 +8,7 @@ html {
     flex-direction: row;
 }
 .parallax1 {
-    width: 80%;
+    width: 60%;
     height: 90vh;
     border: 10px grey solid;
     margin: auto;
