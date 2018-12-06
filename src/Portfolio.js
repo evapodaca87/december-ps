@@ -11,7 +11,17 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Rick & Morty Character Library</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>React</li>
+                <li className='onPicLI'>Semantic UI React</li>
+                <li className='onPicLI'>RESTful API</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>JSX & CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -22,7 +32,17 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Tap Tap BOOM</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>Paper.js</li>
+                <li className='onPicLI'>Howler.js</li>
+                <li className='onPicLI'>HTML</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -33,7 +53,17 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Inbox</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>React</li>
+                <li className='onPicLI'>Bootstrap</li>
+                <li className='onPicLI'>JSX</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -44,7 +74,15 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>My first DrumKit</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>HTML</li>
+                <li className='onPicLI'>CSS</li>
+                <li className='onPicLI'>JavaScript</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -55,7 +93,17 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Shopping Cart</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>React</li>
+                <li className='onPicLI'>Bootstrap</li>
+                <li className='onPicLI'>JSX</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -66,7 +114,16 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Pixel Art</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>Bootstrap</li>
+                <li className='onPicLI'>HTML</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -77,7 +134,15 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>CSS Clock</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>HTML</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />
@@ -88,7 +153,16 @@ const Portfolio = () => (
             bgImageAlt='the cat'
             strength={60}
         >
-            <p className='onPic'>Hello this is filler text yo</p>
+            <div className='space1' />
+            <h1 className='onPic1'>Calculator</h1>
+            <div className='space2' />
+            <ul className='onPic'>
+                <h2>Tech Used:</h2>
+                <li className='onPicLI'>Bootstrap</li>
+                <li className='onPicLI'>HTML</li>
+                <li className='onPicLI'>JavaScript</li>
+                <li className='onPicLI'>CSS</li>
+            </ul>
             <div style={{ width: '90vw', height: '90vh' }} />
         </Parallax>
         <div className='p2' />

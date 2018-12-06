@@ -22,7 +22,7 @@ class App extends Component {
             showPort: true,
             showMusic: true,
             showContact: true,
-            showBlank: false
+            showBlank: true
         });
     }
 
