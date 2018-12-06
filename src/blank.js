@@ -13,7 +13,7 @@ const Blank = () => (
             blur={0}
             bgImage={require('./images/inflated.JPG')}
             bgImageAlt='the cat'
-            strength={60}
+            strength={100}
         >
             
             <div style={{ width: '90vw', height: '90vh' }} />

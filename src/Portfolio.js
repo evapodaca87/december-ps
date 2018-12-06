@@ -11,7 +11,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/rick.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Rick & Morty Character Library</h1>
@@ -32,7 +32,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/boom.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Tap Tap BOOM</h1>
@@ -53,7 +53,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/email.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Inbox</h1>
@@ -74,7 +74,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/firstDrum.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>My first DrumKit</h1>
@@ -93,7 +93,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/ugly.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Shopping Cart</h1>
@@ -114,7 +114,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/pixel.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Pixel Art</h1>
@@ -134,7 +134,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/clock.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>CSS Clock</h1>
@@ -153,7 +153,7 @@ const Portfolio = () => (
                 blur={0}
                 bgImage={require('./images/calc.jpg')}
                 bgImageAlt='the cat'
-                strength={60}
+                strength={100}
             >
                 <div className='space1' />
                 <h1 className='onPic1'>Calculator</h1>

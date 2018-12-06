@@ -47,7 +47,7 @@ const About = () => (
                 blur={0}
                 bgImage={require('./images/me.JPG')}
                 bgImageAlt='the cat'
-                strength={100}
+                strength={200}
             >
                 <div style={{ width: '90vw', height: '90vh' }} />
             </Parallax>
