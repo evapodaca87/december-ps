@@ -9,7 +9,7 @@ const Blank = () => (
         <h1 className="info">Evan Apodaca</h1>
         {/* -----basic config-----*/}
         <Parallax
-            className='parallax1'
+            className='parallax2'
             blur={0}
             bgImage={require('./images/inflated.JPG')}
             bgImageAlt='the cat'
