@@ -139,3 +139,87 @@ h2 {
     margin-right: 100px;
     justify-content: center;
 }
+.buttonMenu {
+    /* padding-left: 3%; */
+}
+
+.snip1579 {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 250px;
+    max-width: 250px;
+    width: 100%;
+    background-color: inherit;
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1579 * {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.snip1579 img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.snip1579 figcaption {
+    position: absolute;
+    height: 75px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.snip1579 h3 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+
+.snip1579 h5 {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    /* color: #bbb; */
+    letter-spacing: 1px;
+}
+
+.snip1579 blockquote {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.snip1579 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5%;
+}
+
+iframe {
+    border-radius: 5%;
+}
+
+.snip1579:hover figcaption,
+.snip1579.hover figcaption {
+    height: calc(85%);
+}
