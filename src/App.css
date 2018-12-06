@@ -47,6 +47,7 @@ html {
 .info {
     color: white;
     font-size: 8em;
+    text-shadow: 6px 6px grey;
 }
 .p2 {
     height: 10vh;
