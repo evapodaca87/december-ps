@@ -71,10 +71,13 @@ html {
     width: 80vw;
 }
 .contacts {
+    margin-top: 200px;
     width: 80%;
     color: black;
     background-color: grey;
     align-content: center;
+    border-color: white solid 2px;
+    height: 50vh;
 }
 .link-badge {
     height: 8em;
@@ -82,7 +85,17 @@ html {
     opacity: 0.9;
 }
 .music {
-    height: 100vh;
+    margin-top: 10px;
+    color: black;
+    width: 80%;
+    color: black;
+    background-color: grey;
+    align-content: center;
+    border-color: white solid 2px;
+}
+
+.music2 {
+    font-size: 9em;
 }
 .about {
     margin-top: 100px;
@@ -137,9 +150,6 @@ h2 {
     display: flex;
     margin-right: 100px;
     justify-content: center;
-}
-.buttonMenu {
-    /* padding-left: 3%; */
 }
 
 .snip1579 {
@@ -220,4 +230,9 @@ iframe {
 .snip1579:hover figcaption,
 .snip1579.hover figcaption {
     height: calc(85%);
+}
+.big {
+    font-size: 9em;
+    text-shadow: 2px 2px rgb(209, 198, 198);
+    text-decoration: underline; 
 }

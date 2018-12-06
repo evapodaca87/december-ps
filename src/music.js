@@ -3,6 +3,7 @@ import React from 'react';
 const Music = () => (
     <div className='contact'>
         <div className='music'>
+        <h1 className="big">Music</h1>
             <a href='https://open.spotify.com/artist/0jVctYQtkzafC6FoyPqacD'>
                 <figure className='snip1579'>
                     <img

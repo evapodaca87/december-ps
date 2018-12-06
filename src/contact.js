@@ -4,6 +4,7 @@ import './App.css';
 const Contact = () => {
     return (
         <div className='contacts'>
+        <h1 className="big">Contact</h1>
             <a href='https://www.linkedin.com/in/evan-apodaca/'>
                 <img className='link-badge' src='https://image.flaticon.com/icons/svg/25/25320.svg' />
             </a>
