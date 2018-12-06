@@ -28,6 +28,7 @@ html {
     border: 10px grey solid;
     margin: auto;
     padding-right: 100px;
+    box-shadow: 10px 10px rgb(209, 198, 198);
 }
 .nav {
     display: flex;
@@ -45,6 +46,7 @@ html {
 }
 .info {
     color: white;
+    font-size: 8em;
 }
 .p2 {
     height: 10vh;
@@ -85,6 +87,8 @@ html {
     opacity: 0.9;
 }
 .music {
+    width: 80%;
+    justify-content: center;
     margin-top: 10px;
     color: black;
     width: 80%;
@@ -161,11 +165,12 @@ h2 {
     min-width: 250px;
     max-width: 250px;
     width: 100%;
+    border-radius: 10%;
     background-color: inherit;
     color: #ffffff;
     text-align: left;
     font-size: 16px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px rgb(209, 198, 198);
 }
 
 .snip1579 * {
