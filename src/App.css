@@ -27,7 +27,7 @@ html {
     flex-direction: column;
     align-items: center;
 }
-h1{
+.info{
     color: white;
 }
 .p2 {
