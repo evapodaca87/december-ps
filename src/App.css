@@ -11,11 +11,20 @@ html {
     width: 60%;
     height: 90vh;
     border: 10px grey solid;
+    margin: auto 100px;
+    margin-left: 100px;
+}
+.parallax5 {
+    width: 50%;
+    height: 40%;
+    background-position: center bottom;
+    border: 10px grey solid;
     margin: auto;
+    padding-right: 100px;
 }
 .nav {
     display: flex;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     width: 22vw;
 }
@@ -27,7 +36,7 @@ html {
     flex-direction: column;
     align-items: center;
 }
-.info{
+.info {
     color: white;
 }
 .p2 {
@@ -40,28 +49,38 @@ html {
     padding-top: 10vh;
     width: 100%;
 }
+.blank {
+    display: flex;
+    flex-direction: column;
+}
 .home {
     /* padding-top: 10vh; */
     width: 100%;
+}
+.home1 {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
 }
 .contact {
     height: 100vh;
     color: white;
 }
-.blank {
-    height: 100vh;
-}
 .music {
     height: 100vh;
 }
 .about {
-  margin-top: 100px;
-  height: 600px;
-  background-color: white;
-  opacity: 0.7;
-  width: 78vw;
-  padding: 0;
-  font-size: 20px;
+    margin-top: 100px;
+    height: 600px;
+    color: white;
+    opacity: 0.7;
+    width: 70vw;
+    padding: 0;
+    font-size: 20px;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .onPic {
     background-color: white;
@@ -92,9 +111,15 @@ h2 {
     font-size: 30px;
     text-decoration: underline;
 }
-.space1{
+.space1 {
     height: 110px;
 }
-.space2{
+.space2 {
     height: 130px;
+}
+.blank {
+    width: 78vw;
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
 }
