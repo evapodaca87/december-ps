@@ -16,9 +16,19 @@ class App extends Component {
         showBlank: false
     };
 
+    toggleHome() {
+        this.setState({
+            showAbout: true,
+            showPort: true,
+            showMusic: true,
+            showContact: true,
+            showBlank: false
+        });
+    }
+
     toggleAbout() {
         this.setState({
-            showAbout: !this.state.showAbout,
+            showAbout: false,
             showPort: true,
             showMusic: true,
             showContact: true,
@@ -40,9 +50,9 @@ class App extends Component {
         this.setState({
             showAbout: true,
             showPort: true,
-            showMusic: !this.state.showMusic,
+            showMusic: false,
             showContact: true,
-            showBlank: !this.state.showBlank
+            showBlank: true
         });
     }
 
@@ -51,8 +61,8 @@ class App extends Component {
             showAbout: true,
             showPort: true,
             showMusic: true,
-            showContact: !this.state.showContact,
-            showBlank: !this.state.showBlank
+            showContact: false,
+            showBlank: true
         });
     }
 
@@ -62,7 +72,7 @@ class App extends Component {
                 <div className='nav'>
                     <Menu inverted pointing vertical>
                         <Menu.Item className='name' name='Evan Apodaca' />
-                        <Menu.Item name='Home' />
+                        <Menu.Item name='Home' onClick={this.toggleHome.bind(this)}/>
                         {/* // active={activeItem === 'home'} */}
                         <Menu.Item
                             name='About'
