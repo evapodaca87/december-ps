@@ -13,6 +13,7 @@ html {
     border: 10px grey solid;
     margin: auto 100px;
     margin-left: 100px;
+    box-shadow: 10px 10px rgb(209, 198, 198);
 }
 .parallax2 {
     width: 60%;
@@ -20,6 +21,7 @@ html {
     border: 10px grey solid;
     margin: auto 100px;
     margin-left: 300px;
+    box-shadow: 10px 10px rgb(209, 198, 198);
 }
 .parallax5 {
     width: 50%;
@@ -81,6 +83,7 @@ html {
     align-content: center;
     border-color: white solid 2px;
     height: 50vh;
+    box-shadow: 10px 10px rgb(209, 198, 198);
 }
 .link-badge {
     height: 8em;
@@ -97,6 +100,7 @@ html {
     background-color: grey;
     align-content: center;
     border-color: white solid 2px;
+    box-shadow: 10px 10px rgb(209, 198, 198);
 }
 
 .music2 {
