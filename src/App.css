@@ -70,9 +70,17 @@ html {
     flex-direction: row;
     width: 80vw;
 }
-.contact {
-    height: 100vh;
-    color: white;
+.contacts {
+    /* height: 100vh; */
+    color: black;
+    background-color: grey;
+    /* opacity: 0.5; */
+    align-content: center;
+}
+.link-badge {
+    height: 8em;
+    margin: 1em;
+    opacity: 0.9;
 }
 .music {
     height: 100vh;
