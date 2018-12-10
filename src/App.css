@@ -148,22 +148,28 @@ html {
 }
 
 .onPic {
-    background-color: white;
+    background-color: rgb(17, 10, 10);
     opacity: 0.5;
     font-size: 32px;
     list-style: none;
     padding: 10px;
     margin-top: 100px;
+    width: auto;
+    margin: auto;
     align-content: flex-end;
+    color: white;
+    text-shadow: 2px 2px rgb(8, 8, 8);
 }
 .onPic1 {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(17, 10, 10);
     opacity: 0.5;
     font-size: 32px;
     list-style: none;
     padding: 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(8, 8, 8);
 }
 .onPicLI {
     padding-top: 15px;
