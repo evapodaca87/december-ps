@@ -6,6 +6,7 @@ import Music from './music';
 import Contact from './contact';
 import Blank from './blank';
 import { Menu } from 'semantic-ui-react';
+import { Howl, Howler } from 'howler';
 
 class App extends Component {
     state = {
@@ -70,9 +71,9 @@ class App extends Component {
         return (
             <div className='App'>
                 <div className='nav'>
-                    <Menu className="menu" inverted vertical>
+                    <Menu className='menu' inverted vertical>
                         <Menu.Item className='name' name='Evan Apodaca' />
-                        <Menu.Item name='Home' onClick={this.toggleHome.bind(this)}/>
+                        <Menu.Item name='Home' onClick={this.toggleHome.bind(this)} />
                         {/* // active={activeItem === 'home'} */}
                         <Menu.Item
                             name='About'
