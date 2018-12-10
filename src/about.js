@@ -3,10 +3,8 @@ import { Parallax } from 'react-parallax';
 
 const About = () => (
     <div className='blank'>
-        <h1 className='info'>Evan Apodaca</h1>
+        <h1 className='big'>Evan Apodaca</h1>
         <div className='home1'>
-            {/* -----basic config-----*/}
-
             <div className='about'>
                 <p>
                     Hi! I’m Evan. I’m a veteran working to become an audio software engineer. with a background in Music
@@ -35,11 +33,6 @@ const About = () => (
                 <p>
                     I also enjoy hiking with my dog on the weekends, hanging out with friends, and every few weeks, I
                     jump out of a plane. Skydiving has become another love of mine.
-                </p>
-                <p>
-                    I am a Colorado native, and while I do love it here in the Denver area, I am open to relocating to
-                    anywhere in the world to achieve my dreams. I want to work for a company I believe in, no matter how
-                    small the project, or where they are located.
                 </p>
             </div>
             <Parallax

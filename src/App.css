@@ -11,8 +11,7 @@ html {
     width: 60%;
     height: 90vh;
     border: 10px grey solid;
-    margin: auto 100px;
-    margin-left: 100px;
+    margin: auto;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
 }
@@ -20,18 +19,16 @@ html {
     width: 60%;
     height: 90vh;
     border: 10px grey solid;
-    margin: auto 100px;
-    margin-left: 300px;
+    margin: auto;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
 }
 .parallax5 {
-    width: 50%;
+    width: 55%;
     height: 40%;
     background-position: center bottom;
     border: 10px grey solid;
     margin: auto;
-    padding-right: 100px;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
 }
@@ -60,23 +57,41 @@ html {
 .name {
     font-size: 24px;
 }
-.portfolio {
-    padding-top: 10vh;
-    padding-left: 300px;
-    width: 100%;
-}
+
 .blank {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+    background-color: grey;
+    box-shadow: 10px 10px rgb(209, 198, 198);
+    border: white 1px solid;
+
+    margin: auto;
+}
+.blank1 {
+    margin-top:100px;
 }
 .home {
-    /* padding-top: 10vh; */
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+    background-color: grey;
+    box-shadow: 10px 10px rgb(209, 198, 198);
+    border: white 1px solid;
+
+    margin: auto;
+
 }
 .home1 {
     display: flex;
     flex-direction: row;
     width: 80vw;
+    
 }
 .contacts {
     margin-top: 200px;
@@ -88,6 +103,9 @@ html {
     height: 50vh;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 .link-badge {
     height: 8em;
@@ -106,24 +124,38 @@ html {
     border-color: white solid 2px;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.music2 {
-    font-size: 9em;
+.portfolio {
+    width: 80%;
+    color: black;
+    background-color: grey;
+    box-shadow: 10px 10px rgb(209, 198, 198);
+    border: white 1px solid;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about {
     margin-top: 100px;
-    height: 600px;
     color: white;
+    text-shadow: 2px 2px rgb(8, 8, 8);
     opacity: 0.7;
     width: 70vw;
-    padding: 0;
     font-size: 20px;
     flex-direction: row;
     align-content: flex-end;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 3%;
+    padding-left: 3%;
+    
+    
 }
+.music2 {
+    font-size: 9em;
+}
+
 .onPic {
     background-color: white;
     opacity: 0.5;
@@ -247,7 +279,7 @@ iframe {
     height: calc(85%);
 }
 .big {
-    font-size: 9em;
+    font-size: 90px;
     text-shadow: 2px 2px rgb(209, 198, 198);
     text-decoration: underline; 
 }

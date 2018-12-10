@@ -3,8 +3,8 @@ import { Parallax } from 'react-parallax';
 
 const Portfolio = () => (
     <div>
-        <h1 className='info'>Portfolio</h1>
         <div className='portfolio'>
+            <h1 className='big'>Portfolio</h1>
             {/* -----basic config-----*/}
             <Parallax
                 className='parallax1'
