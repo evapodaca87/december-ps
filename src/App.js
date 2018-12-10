@@ -70,7 +70,7 @@ class App extends Component {
         return (
             <div className='App'>
                 <div className='nav'>
-                    <Menu inverted pointing vertical>
+                    <Menu className="menu" inverted vertical>
                         <Menu.Item className='name' name='Evan Apodaca' />
                         <Menu.Item name='Home' onClick={this.toggleHome.bind(this)}/>
                         {/* // active={activeItem === 'home'} */}

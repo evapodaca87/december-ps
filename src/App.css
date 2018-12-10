@@ -1,5 +1,6 @@
 html {
     background-color: black;
+    /* font-size: 62.5%; */
 }
 .App {
     text-align: center;
@@ -33,10 +34,9 @@ html {
     border: white 1px solid;
 }
 .nav {
-    display: flex;
     height: 150vh;
     display: flex;
-    width: 22vw;
+    width: 22%;
 }
 .content {
     width: 100vw;
@@ -55,7 +55,7 @@ html {
     height: 10vh;
 }
 .name {
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .blank {
@@ -71,7 +71,7 @@ html {
     margin: auto;
 }
 .blank1 {
-    margin-top:100px;
+    margin-top: 100px;
 }
 .home {
     display: flex;
@@ -85,25 +85,18 @@ html {
     border: white 1px solid;
 
     margin: auto;
-
 }
 .home1 {
     display: flex;
     flex-direction: row;
     width: 80vw;
-    
 }
 .contacts {
     margin-top: 200px;
-    width: 80%;
     color: black;
     background-color: grey;
-    align-content: center;
-    border-color: white solid 2px;
-    height: 50vh;
     box-shadow: 10px 10px rgb(209, 198, 198);
     border: white 1px solid;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -149,8 +142,6 @@ html {
     align-content: flex-end;
     padding-right: 3%;
     padding-left: 3%;
-    
-    
 }
 .music2 {
     font-size: 9em;
@@ -251,7 +242,6 @@ h2 {
     font-weight: 400;
     margin: 0;
     text-transform: uppercase;
-    /* color: #bbb; */
     letter-spacing: 1px;
 }
 
@@ -279,7 +269,31 @@ iframe {
     height: calc(85%);
 }
 .big {
-    font-size: 90px;
+    font-size: 9rem;
     text-shadow: 2px 2px rgb(209, 198, 198);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
+@media screen and (max-width: 550px) {
+    .app{
+        width: 100%;
+    }
+    .content{
+        width:75%;
+    }
+    .big {
+      font-size: 5rem;
+    }
+    .nav {
+        width: 30% !important;
+    }
+    .name {
+        font-size: 24px !important;
+    }
+    .menu {
+        width: 25vw !important;
+    }
+    .name {
+        font-size: 0.5rem;
+    }
+    
+  }
