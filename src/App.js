@@ -7,6 +7,7 @@ import Contact from './contact';
 import Blank from './blank';
 import { Menu } from 'semantic-ui-react';
 // import { Howl, Howler } from 'howler';
+const {Howl, Howler} = require('howler');
 
 class App extends Component {
     state = {

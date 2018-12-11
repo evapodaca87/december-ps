@@ -1,5 +1,7 @@
 import React from 'react';
 import Songs from './Songs.js';
+// import { Howl, Howler } from 'howler';
+const {Howl, Howler} = require('howler');
 
 const Music = () => (
     <div className='contact'>
