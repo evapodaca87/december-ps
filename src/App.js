@@ -6,7 +6,7 @@ import Music from './music';
 import Contact from './contact';
 import Blank from './blank';
 import { Menu } from 'semantic-ui-react';
-import { Howl, Howler } from 'howler';
+// import { Howl, Howler } from 'howler';
 
 class App extends Component {
     state = {

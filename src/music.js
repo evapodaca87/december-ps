@@ -1,4 +1,5 @@
 import React from 'react';
+import Songs from './Songs.js';
 
 const Music = () => (
     <div className='contact'>
@@ -59,6 +60,7 @@ const Music = () => (
             <hr />
             <br />
             <h3>Here are a few of my latest or favorite songs:</h3>
+            <Songs />
             <iframe
                 title='y'
                 className='snip1579'
