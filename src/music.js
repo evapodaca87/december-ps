@@ -61,28 +61,6 @@ const Music = () => (
             <br />
             <h3>Here are a few of my latest or favorite songs:</h3>
             <Songs />
-            {/* <h3>I'm also a DJ in Denver, here are a few of my favorite mixes:</h3>
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487401645&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/450019875&color=%231b1321&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309323991&color=%2312101a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            /> */}
         </div>
     </div>
 );
