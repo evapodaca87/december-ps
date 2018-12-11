@@ -61,56 +61,7 @@ const Music = () => (
             <br />
             <h3>Here are a few of my latest or favorite songs:</h3>
             <Songs />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/277152556&color=%2312161d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/491184321&color=%2339444e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302441399&color=%23302c14&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285744020&color=%231b250e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164610401&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216503209&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <iframe
-                title='y'
-                className='snip1579'
-                scrolling='yes'
-                frameBorder='no'
-                src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/160318917&color=%23171716&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
-            <h3>I'm also a DJ in Denver, here are a few of my favorite mixes:</h3>
+            {/* <h3>I'm also a DJ in Denver, here are a few of my favorite mixes:</h3>
             <iframe
                 title='y'
                 className='snip1579'
@@ -131,7 +82,7 @@ const Music = () => (
                 scrolling='yes'
                 frameBorder='no'
                 src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309323991&color=%2312101a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-            />
+            /> */}
         </div>
     </div>
 );
