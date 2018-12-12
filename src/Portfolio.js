@@ -1,10 +1,20 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import all3 from './images/all3.png';
+import react from './images/react.png';
+import node2 from './images/node2.png';
+import './App.css';
 
 const Portfolio = () => (
     <div>
         <div className='portfolio'>
             <h1 className='big'>Portfolio</h1>
+            <h2>Tech</h2>
+            <img className="techLogo" src={all3}></img>
+            <img className="techLogo" src={react}></img>
+            <img className="techLogo" src={node2}></img>
+
+            <h2>Projects</h2>
             {/* -----basic config-----*/}
 
             <Parallax
