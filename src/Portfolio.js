@@ -10,12 +10,37 @@ const Portfolio = () => (
         <div className='portfolio'>
             <h1 className='big'>Portfolio</h1>
             <h2>Tech</h2>
-            <img className="techLogo" src={all3}></img>
-            <img className="techLogo" src={react}></img>
-            <img className="techLogo" src={node2}></img>
+            <img className='techLogo' src={all3} />
+            <img className='techLogo' src={react} />
+            <img className='techLogo' src={node2} />
 
             <h2>Projects</h2>
             {/* -----basic config-----*/}
+
+            <Parallax
+                className='parallax1'
+                blur={0}
+                bgImage={require('./images/inflatedsite.png')}
+                bgImageAlt='the cat'
+                strength={100}
+            >
+                <a href='http://inflated-penguins.surge.sh/'>
+                    <div className='space1' />
+                    <h1 className='onPic1'>Inflated Penguins Music Site</h1>
+                    <div className='space2' />
+                    <ul className='onPic'>
+                        <h2>Tech Used:</h2>
+                        <li className='onPicLI'>React</li>
+                        <li className='onPicLI'>Semantic UI React</li>
+                        <li className='onPicLI'>Howler.js</li>
+                        <li className='onPicLI'>JavaScript</li>
+                        <li className='onPicLI'>JSX & CSS</li>
+                    </ul>
+                    <div style={{ width: '90vw', height: '90vh' }} />
+                </a>
+            </Parallax>
+
+            <div className='p2' />
 
             <Parallax
                 className='parallax1'
