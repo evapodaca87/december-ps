@@ -1,5 +1,4 @@
 import React from 'react';
-import Songs from './Songs.js';
 // import { Howl, Howler } from 'howler';
 const {Howl, Howler} = require('howler');
 
@@ -61,8 +60,8 @@ const Music = () => (
             </a>
             <hr />
             <br />
-            <h3>Here are a few of my latest or favorite songs:</h3>
-            <Songs />
+            <h3>Please, see my <a className="whiteLink" href="inflated-penguins.surge.sh">official music site</a> to see my music</h3>
+           
         </div>
     </div>
 );
