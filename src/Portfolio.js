@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 import all3 from './images/all3.png';
 import react from './images/react.png';
 import node2 from './images/node2.png';
+import sql from './images/sql.svg';
 import './App.css';
 
 const Portfolio = () => (
@@ -13,6 +14,7 @@ const Portfolio = () => (
             <img className='techLogo' src={all3} />
             <img className='techLogo' src={react} />
             <img className='techLogo' src={node2} />
+            <img className='techLogo' src={sql} />
 
             <h2>Projects</h2>
             {/* -----basic config-----*/}
@@ -88,6 +90,32 @@ const Portfolio = () => (
                     <div style={{ width: '90vw', height: '90vh' }} />
                 </a>
             </Parallax>
+            <div className='p2' />
+            <Parallax
+                className='parallax1'
+                blur={0}
+                bgImage={require('./images/gitlit.png')}
+                bgImageAlt='the cat'
+                strength={100}
+            >
+                <a href='https://git-lit.surge.sh/'>
+                    <div className='space1' />
+                    <h1 className='onPic1'>Git-Lit Bar Finder</h1>
+                    <div className='space2' />
+                    <ul className='onPic'>
+                        <h2>Tech Used:</h2>
+                        <li className='onPicLI'>React</li>
+                        <li className='onPicLI'>Semantic UI React</li>
+                        <li className='onPicLI'>Google Map API</li>
+                        <li className='onPicLI'>Node.js</li>
+                        <li className='onPicLI'>Express w/Knex</li>
+                        <li className='onPicLI'>JavaScript</li>
+                        <li className='onPicLI'>JSX & CSS</li>
+                    </ul>
+                    <div style={{ width: '90vw', height: '90vh' }} />
+                </a>
+            </Parallax>
+
             <div className='p2' />
             <Parallax
                 className='parallax1'
