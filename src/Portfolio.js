@@ -4,6 +4,10 @@ import all3 from './images/all3.png';
 import react from './images/react.png';
 import node2 from './images/node2.png';
 import sql from './images/sql.svg';
+import angular from './images/Angular.svg';
+import knex from './images/knex.png';
+import router from './images/router.png';
+import post from './images/postgre.png';
 import './App.css';
 
 const Portfolio = () => (
@@ -13,8 +17,12 @@ const Portfolio = () => (
             <h2>Tech</h2>
             <img className='techLogo' src={all3} />
             <img className='techLogo' src={react} />
+            <img className='techLogo' src={router} />
+            <img className='techLogo' src={angular} />
             <img className='techLogo' src={node2} />
             <img className='techLogo' src={sql} />
+            <img className='techLogo' src={post} />
+            <img className='techLogo' src={knex} />
 
             <h2>Projects</h2>
             {/* -----basic config-----*/}
