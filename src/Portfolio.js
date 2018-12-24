@@ -30,6 +30,29 @@ const Portfolio = () => (
             <Parallax
                 className='parallax1'
                 blur={0}
+                bgImage={require('./images/maxwell.png')}
+                bgImageAlt='the cat'
+                strength={100}
+            >
+                <a href='http://maxwellhits.com/'>
+                    <div className='space1' />
+                    <h1 className='onPic1'>Maxwell Hits Music Site</h1>
+                    <div className='space2' />
+                    <ul className='onPic'>
+                        <h2>Tech Used:</h2>
+                        <li className='onPicLI'>React</li>
+                        <li className='onPicLI'>Howler.js</li>
+                        <li className='onPicLI'>JavaScript</li>
+                        <li className='onPicLI'>JSX & CSS</li>
+                    </ul>
+                    <div style={{ width: '90vw', height: '90vh' }} />
+                </a>
+            </Parallax>
+
+            <div className='p2' />
+            <Parallax
+                className='parallax1'
+                blur={0}
                 bgImage={require('./images/inflatedsite.png')}
                 bgImageAlt='the cat'
                 strength={100}
